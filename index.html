@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Fitness</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background: url(img/bg1.jpg);
+            color: wheat;
+        }
+       
+       ul{
+        border: 2px solid red;
+    height: 44px;
+    width: 51%;
+    border-radius: 15px;
+   
+    position: absolute;
+    left: 350px;
+    top: -8px;
+       }
+       li{
+           list-style: none;
+           float: left;
+           margin: 12px 60px;
+          
+           
+       }
+       #li-4{
+           float: none;
+       }
+       li a{
+        text-decoration: none;
+        color: wheat;
+       }
+       a:hover{
+           color: white;
+           background-color: black;
+           padding: 4px 8px;
+           border: 1px solid red;
+           border-radius: 10px;
+       }
+       .active{
+        text-decoration:  underline;
+        
+        
+       }
+       .left{
+          position: absolute;
+          left: 84px;
+          top: 30px;
+          cursor: pointer;
+       }
+       .right{
+          position: absolute;
+          right: 34px;
+          top: 14px;
+       }
+       .btn{
+           border: 3px solid rgb(47, 47, 204);
+           border-radius: 12px;
+           padding: 6px 18px;
+           background-color: black;
+           color: white;
+
+       }
+       .btn:hover{
+           background-color: white;
+           color: black;
+           border: 2px solid red;
+           border-radius: 12px;
+       }
+       .container{
+           margin: 250px 100px;
+           text-align: center;
+           border: 3px solid darkblue;
+           border-radius: 22px;
+           width: 40%;
+           height: 500px;
+        
+       }
+       h3{
+           color: brown;
+        margin-bottom: 70px;
+        margin-top: 30px;
+       }
+       input{
+           display: block;
+           padding: 10px 12px;
+           border: 2px solid ;
+           margin: 10px 78px;
+           width: 350px;
+           border-radius: 35px;
+           text-align: center;
+       }
+       #submitbtn{
+        display: block;
+    padding: 10px 12px;
+    border: 2px solid;
+    margin: 10px 215px;
+    width: 113px;
+    border-radius: 22px;
+    margin-top: 40px;
+}
+
+
+
+         
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="left">
+                
+                <img src="" alt="">
+                Public Fitness
+                
+            </div>
+            <div class="middle">
+                    <ul>
+                        <li class="items active" id="li-1"><a href="">Home</a></li>
+                        <li class="items" id="li-2"><a href="">Services</a></li>
+                        <li class="items" id="li-3"><a href="">Services</a></li>
+                        <li class="items" id="li-4"><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <button class="btn" id="btn-1">
+                        Call Now
+                    </button>
+                    <button class="btn" id="btn-2">
+                     Email us
+                    </button>
+                </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h3>JOIN PUBLIC FITNESS GYM NOW</h3>
+        <form action="back.php">
+
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" text="name" id="name" placeholder="Enter your name">
+            <input type="text" number="name" id="name" placeholder="Enter your name">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <button id="submitbtn">Submit</button>
+        </form>
+        
+        
+
+    </div>
+</body>
+</html>
